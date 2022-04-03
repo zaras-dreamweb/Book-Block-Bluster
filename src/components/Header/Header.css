@@ -1,0 +1,21 @@
+.active {
+    margin-right: 20px;
+    font-size: 20px;
+    transition: color ease-in-out 300ms;
+    color: rgb(0, 0, 128);
+}
+
+.inactive {
+    margin-right: 20px;
+    font-size: 20px;
+    transition: color ease-in-out 300ms;
+    color: rgb(253, 253, 253);
+}
+
+.active:hover {
+    color: rgb(185, 185, 187)
+}
+
+.inactive:hover {
+    color: rgb(185, 185, 187)
+}
