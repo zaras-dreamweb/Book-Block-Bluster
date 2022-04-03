@@ -2,43 +2,43 @@
     {
         "id": "1",
         "name": "Beverley Barker",
-        "reviews": "{{This book offers a refreshing perspective and representation of Vampires and Shapeshifters.It offers comfort with the aspects of rain, darkness (the blue tint) and mystery.}}",
+        "reviews": "This book offers a refreshing perspective and representation of Vampires and Shapeshifters.It offers comfort with the aspects of rain, darkness (the blue tint) and mystery.",
         "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cmFuZG9tJTIwcGVvcGxlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
         "rating": 4.5
     },
     {
         "id": "2",
         "name": "Harmon Shepard",
-        "reviews": "{{I love twilight in a way that I have never loved a story in my entire life.the story is just brilliant.The love in this story between two people is just indiscribable,but the bad thing is that there isn't that love in reality}}",
-        "image": "http://placehold.it/32x32",
+        "reviews": "I love twilight in a way that I have never loved a story in my entire life.the story is just brilliant.The love in this story between two people is just indiscribable,but the bad thing is that there isn't that love in reality",
+        "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cmFuZG9tJTIwcGVvcGxlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
         "rating": 4.5
     },
     {
         "id": "3",
         "name": "Delaney Carpenter",
-        "reviews": "{{This is one of those books that can be reread millions of time. A supernatural theme with a perfect blend of romance makes it one of the best young adult fantasy fiction novel. }}",
-        "image": "http://placehold.it/32x32",
+        "reviews": "This is one of those books that can be reread millions of time. A supernatural theme with a perfect blend of romance makes it one of the best young adult fantasy fiction novel. ",
+        "image": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cmFuZG9tJTIwcGVvcGxlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
         "rating": 4.5
     },
     {
         "id": "4",
         "name": "Veronica Craig",
-        "reviews": "{{This is one of the best books ever read ...go ahead and try this. It has quite simple vocabulary easy to understand .every thing seems like a roller coaster ride, so amazing}}",
-        "image": "http://placehold.it/32x32",
+        "reviews": "This is one of the best books ever read ...go ahead and try this. It has quite simple vocabulary easy to understand .every thing seems like a roller coaster ride, so amazing",
+        "image": "https://images.unsplash.com/photo-1530785602389-07594beb8b73?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8cmFuZG9tJTIwcGVvcGxlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
         "rating": 4.5
     },
     {
         "id": "5",
         "name": "Weaver Pittman",
-        "reviews": "{{I'm totally obsessed With the twilight series. A story of  a human girl and a vampire who'll love each other beyond eternity. Everything in the book is beautifully described that you can visualize every single details as if you are living through it .}}",
-        "image": "http://placehold.it/32x32",
+        "reviews": "I'm totally obsessed With the twilight series. A story of  a human girl and a vampire who'll love each other beyond eternity. Everything in the book is beautifully described that you can visualize every single details as if you are living through it .",
+        "image": "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHJhbmRvbSUyMHBlb3BsZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
         "rating": 4.5
     },
     {
         "id": "6",
         "name": "Jake Bob",
-        "reviews": "{{Twilight is basically the best book I have ever came across. The story is so beautiful that every time I read it I fall for it all over again. The scenes are sweetly romantic and it makes us feel the dreams comes true.}}",
-        "image": "http://placehold.it/32x32",
+        "reviews": "Twilight is basically the best book I have ever came across. The story is so beautiful that every time I read it I fall for it all over again. The scenes are sweetly romantic and it makes us feel the dreams comes true.",
+        "image": "https://images.unsplash.com/photo-1530268729831-4b0b9e170218?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8cmFuZG9tJTIwcGVvcGxlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
         "rating": 4.5
     }
 ]

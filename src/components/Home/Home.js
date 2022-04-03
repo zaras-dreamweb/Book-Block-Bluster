@@ -1,4 +1,5 @@
 import React from 'react';
+import { Button, Card } from 'react-bootstrap';
 import useReviews from '../../hook/useReviews';
 import Review from '../Review/Review';
 import './Home.css'
@@ -21,14 +22,27 @@ const Home = () => {
                     <img className='mx-auto my-8' src="/images/twilight.jpg" alt="" />
                 </div>
             </div>
-            <div className="customer-review">
-                <h1 className='text-5xl font-bold pt-10 text-blue-900 '>Best Reviews</h1>
-                {
-                    reviews.slice(0, 3).map(review => <p key={review.id}>
-                        <img src={review.image} alt="" />
+            <div>
+                <h1 className='text-5xl font-bold pt-20 pb-10 text-blue-900 '>Best Reviews</h1>
+                <div className="customer-review ml-48 grid grid-cols-1 md:grid-cols-3">
+                    {
+                        reviews.slice(0, 3).map(review => <p key={review.id}>
+                            <Card style={{ width: '18rem' }}>
+                                <Card.Img className='h-60 w-40' variant="top" src={review.image} />
+                                <Card.Body>
+                                    <Card.Title><strong>Name:</strong> {review.name}</Card.Title>
+                                    <Card.Text>
+                                        <strong>Review:</strong> {review.reviews}
+                                    </Card.Text>
+                                    <Card.Text>
+                                        <strong>Rating:</strong> {review.rating}
+                                    </Card.Text>
 
-                    </p>)
-                }
+                                </Card.Body>
+                            </Card>
+                        </p>)
+                    }
+                </div>
 
             </div>
         </div>
