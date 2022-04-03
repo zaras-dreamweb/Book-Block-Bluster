@@ -51,6 +51,12 @@
     }
 }
 
+.customer-review {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+}
+
 @media screen and (max-width:900px) {
     .main-container {
         display: grid;
@@ -66,4 +72,11 @@
         font-size: 50px;
 
     }
+
+    .customer-review {
+        display: grid;
+        grid-template-columns: 1fr;
+        place-items: center;
+    }
+
 }

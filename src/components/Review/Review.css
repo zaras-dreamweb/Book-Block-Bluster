@@ -1,0 +1,22 @@
+.review-div h1 {
+    font-size: 60px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.customer-review-div {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    place-items: center;
+}
+
+
+@media screen and (max-width:900px) {
+    .customer-review-div {
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 20px;
+        place-items: center;
+    }
+}

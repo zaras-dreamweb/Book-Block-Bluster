@@ -1,13 +1,18 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faStar, faStarHalf, faStarHalfAlt } from '@fortawesome/free-solid-svg-icons';
 import React from 'react';
-import { Button, Card } from 'react-bootstrap';
+import { Card } from 'react-bootstrap';
 import useReviews from '../../hook/useReviews';
-import Review from '../Review/Review';
+
+
 import './Home.css'
+import { useNavigate } from 'react-router-dom';
 
 
 const Home = () => {
     const [reviews, setReviews] = useReviews([]);
-    console.log(reviews);
+    const navigate = useNavigate();
+
 
     return (
         <div>
@@ -23,8 +28,8 @@ const Home = () => {
                 </div>
             </div>
             <div>
-                <h1 className='text-5xl font-bold pt-20 pb-10 text-blue-900 '>Best Reviews</h1>
-                <div className="customer-review ml-48 grid grid-cols-1 md:grid-cols-3">
+                <h1 className='text-5xl font-bold pt-20 pb-10 text-blue-900 '>Customer Reviews</h1>
+                <div className="customer-review">
                     {
                         reviews.slice(0, 3).map(review => <p key={review.id}>
                             <Card style={{ width: '18rem' }}>
@@ -35,15 +40,20 @@ const Home = () => {
                                         <strong>Review:</strong> {review.reviews}
                                     </Card.Text>
                                     <Card.Text>
-                                        <strong>Rating:</strong> {review.rating}
+                                        <strong>Rating:</strong>
+                                        <FontAwesomeIcon icon={faStar}></FontAwesomeIcon>
+                                        <FontAwesomeIcon icon={faStar}></FontAwesomeIcon>
+                                        <FontAwesomeIcon icon={faStar}></FontAwesomeIcon>
+                                        <FontAwesomeIcon icon={faStar}></FontAwesomeIcon>
+                                        <FontAwesomeIcon icon={faStarHalfAlt}></FontAwesomeIcon>
+                                        {review.rating}
                                     </Card.Text>
-
                                 </Card.Body>
                             </Card>
                         </p>)
                     }
                 </div>
-
+                <button onClick={() => navigate(`/review`)} className='mb-10 mt-3 pl-5 pr-5 pt-2 pb-2 rounded-lg text-xl text-white bg-blue-600 hover:bg-blue-400'>See More</button>
             </div>
         </div>
     );
