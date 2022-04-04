@@ -1,0 +1,11 @@
+.blogs {
+    width: 100%;
+}
+
+@media screen and (max-width:900px) {
+    .blogs {
+        width: 80%;
+        margin-left: 30px;
+    }
+
+}

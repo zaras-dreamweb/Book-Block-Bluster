@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 
 const Header = () => {
     return (
-        <div>
+        <div className='nav-bar'>
             <nav className='h-20 text-2xl flex items-center justify-center font-semibold bg-gradient-to-r from-blue-700 to-gray-300'>
                 <NavLink className={({ isActive }) => isActive ? 'active' : 'inactive'} to='/'>HOME</NavLink>
                 <NavLink className={({ isActive }) => isActive ? 'active' : 'inactive'} to='/review'>REVIEW</NavLink>

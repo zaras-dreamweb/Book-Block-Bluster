@@ -3,7 +3,7 @@ import React from 'react';
 const NotFound = () => {
     return (
         <div>
-            <h1>not found</h1>
+            <img className='mx-auto my-10' src="/images/notfound.jpg" alt="notfound pic" />
         </div>
     );
 };

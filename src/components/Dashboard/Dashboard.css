@@ -5,3 +5,11 @@
     column-gap: 10px;
     place-items: center;
 }
+
+@media screen and (max-width:900px) {
+    .charts {
+        display: grid;
+        grid-template-columns: 1fr;
+        place-items: center;
+    }
+}

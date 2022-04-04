@@ -21,3 +21,9 @@
 .inactive:hover {
     color: rgb(185, 185, 187)
 }
+
+@media screen and (max-width:900) {
+    .nav-bar nav {
+        width: 100%;
+    }
+}

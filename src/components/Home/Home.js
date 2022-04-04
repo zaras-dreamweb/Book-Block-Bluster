@@ -53,7 +53,7 @@ const Home = () => {
                         </p>)
                     }
                 </div>
-                <button onClick={() => navigate(`/review`)} className='mb-10 mt-3 pl-10 pr-10 pt-2 pb-2 rounded-lg text-xl text-white bg-blue-600 hover:bg-blue-400'>See More</button>
+                <button onClick={() => navigate(`/review`)} className='mb-10 mt-3 pl-10 pr-10 pt-2 pb-2 rounded-lg text-xl text-white bg-blue-500 hover:bg-blue-600'>See More</button>
             </div>
         </div>
     );
