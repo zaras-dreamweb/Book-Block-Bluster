@@ -1,6 +1,6 @@
 # product-analysis-website-zaras-dreamweb
 
-Live link [live project link ](https://book-block-bluster.netlify.app/).
+ [See my live project link](https://book-block-bluster.netlify.app/).
 
 ## OverView Of My Project
 
