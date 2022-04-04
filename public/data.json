@@ -4,14 +4,14 @@
         "name": "Beverley Barker",
         "reviews": "This book offers a refreshing perspective and representation of Vampires and Shapeshifters.It offers comfort with the aspects of rain, darkness (the blue tint) and mystery.",
         "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cmFuZG9tJTIwcGVvcGxlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
-        "rating": 4.5
+        "rating": 5
     },
     {
         "id": "2",
         "name": "Harmon Shepard",
         "reviews": "I love twilight in a way that I have never loved a story in my entire life.the story is just brilliant.The love in this story between two people is just indiscribable,but the bad thing is that there isn't that love in reality",
         "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cmFuZG9tJTIwcGVvcGxlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
-        "rating": 4.5
+        "rating": 3.5
     },
     {
         "id": "3",
@@ -32,7 +32,7 @@
         "name": "Weaver Pittman",
         "reviews": "I'm totally obsessed With the twilight series. A story of  a human girl and a vampire who'll love each other beyond eternity. Everything in the book is beautifully described that you can visualize every single details as if you are living through it .",
         "image": "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHJhbmRvbSUyMHBlb3BsZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
-        "rating": 4.5
+        "rating": 3.5
     },
     {
         "id": "6",

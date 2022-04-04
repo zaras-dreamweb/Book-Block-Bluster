@@ -12,7 +12,7 @@ const Dashboard = () => {
 
 
     return (
-        <div className='charts grid grid-cols-1 md:grid-cols-2 mx-auto'>
+        <div className='charts grid grid-cols-1 md:grid-cols-2'>
 
             <div className="line-chart pt-10 mx-auto">
                 <p className='text-xl font-semibold text-blue-500'> Month wise Sell</p>

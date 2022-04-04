@@ -3,7 +3,7 @@ import './Blogs.css'
 
 const Blogs = () => {
     return (
-        <div className='blogs bg-gradient-to-r from-gray-400 to-blue-600 mt-20 pt-20 pb-20 h-full'>
+        <div className='blogs bg-gradient-to-r from-blue-500 to-gray-400  mt-20 pt-20 pb-20 h-full'>
             <h1 className='text-4xl text-blue-900'>What is context API?</h1>
             <p className='text-white font-serif text-xl'>Context API is a state in react. Through this state, one can share and transfer data or information more easily from one component to another, across the entire app. It is an alternative of ‘pop drilling’. Mainly context API is used when we want to pass same data to more than one place. We can create and use context API in react applications directly importing it from react.</p>
             <h1 className='text-4xl text-blue-900 pt-10'>What is Semantic tag?</h1>

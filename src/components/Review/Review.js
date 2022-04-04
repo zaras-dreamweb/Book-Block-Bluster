@@ -1,12 +1,13 @@
-import { faStar, faStarHalfAlt } from '@fortawesome/free-solid-svg-icons';
+import { faStar } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import './Review.css'
-import { Button, Card } from 'react-bootstrap';
+import { Card } from 'react-bootstrap';
 import useReviews from '../../hook/useReviews';
+import Rating from 'react-rating';
 
 const Review = () => {
-    const [reviews, setReviews] = useReviews([]);
+    const [reviews] = useReviews([]);
 
     return (
         <div className='review-div'>
@@ -23,12 +24,12 @@ const Review = () => {
                                 </Card.Text>
                                 <Card.Text>
                                     <strong>Rating:</strong>
-                                    <FontAwesomeIcon icon={faStar}></FontAwesomeIcon>
-                                    <FontAwesomeIcon icon={faStar}></FontAwesomeIcon>
-                                    <FontAwesomeIcon icon={faStar}></FontAwesomeIcon>
-                                    <FontAwesomeIcon icon={faStar}></FontAwesomeIcon>
-                                    <FontAwesomeIcon icon={faStarHalfAlt}></FontAwesomeIcon>
-                                    {review.rating}
+                                    <Rating
+                                        initialRating={review.rating}
+                                        emptySymbol={<FontAwesomeIcon icon={faStar} />}
+                                        fullSymbol={<FontAwesomeIcon style={{ color: 'goldenrod' }} icon={faStar} />}
+                                        readonly
+                                    ></Rating>
                                 </Card.Text>
                             </Card.Body>
                         </Card>
