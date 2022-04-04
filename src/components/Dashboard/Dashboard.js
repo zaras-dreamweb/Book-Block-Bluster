@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import './Dashboard.css'
+// import './Dashboard.css'
 import { Area, AreaChart, Bar, BarChart, CartesianGrid, ComposedChart, Legend, Line, LineChart, Scatter, Tooltip, XAxis, YAxis } from 'recharts';
 
 const Dashboard = () => {
@@ -12,9 +12,9 @@ const Dashboard = () => {
 
 
     return (
-        <div className='charts'>
+        <div className='charts grid grid-cols-1 md:grid-cols-2 mx-auto'>
 
-            <div className="line-chart pt-10">
+            <div className="line-chart pt-10 mx-auto">
                 <p className='text-xl font-semibold text-blue-500'> Month wise Sell</p>
                 <LineChart width={400} height={400} data={charts}>
                     <Line type='monotone' dataKey='sell'></Line>
@@ -26,7 +26,7 @@ const Dashboard = () => {
             </div>
 
 
-            <div className="bar-Chart pt-10">
+            <div className="bar-Chart pt-10 mx-auto">
                 <p className='text-xl font-semibold text-blue-500'> Printed VS Sell</p>
                 <BarChart width={400} height={400} data={charts} margin={{ top: 5, right: 30, left: 20, bottom: 5, }}>
                     <CartesianGrid strokeDasharray="3 3" />
@@ -39,7 +39,7 @@ const Dashboard = () => {
                 <p className='text-xl font-semibold'>Bar Chart</p>
             </div>
 
-            <div className="composed-chart">
+            <div className="composed-chart mx-auto">
                 <p className='text-xl font-semibold text-blue-500'>Investment VS Revenue </p>
                 <ComposedChart width={400} height={400} data={charts} margin={{ top: 20, right: 20, left: 20, bottom: 20, }}>
                     <CartesianGrid stroke="#f5f5f5" />
@@ -55,7 +55,7 @@ const Dashboard = () => {
                 <p className='text-xl font-semibold'>Composed Chart</p>
             </div>
 
-            <div className="area-chart">
+            <div className="area-chart mx-auto">
                 <p className='text-xl font-semibold text-blue-500'> Month VS Investment</p>
                 <AreaChart
                     width={500} height={400} data={charts} margin={{ top: 10, right: 30, left: 0, bottom: 0, }}>
