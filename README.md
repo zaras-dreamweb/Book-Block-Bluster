@@ -1,6 +1,6 @@
 # product-analysis-website-zaras-dreamweb
 
-Live link [live link ](https://github.com/facebook/create-react-app).
+Live link [live project link ](https://book-block-bluster.netlify.app/).
 
 ## OverView Of My Project
 
