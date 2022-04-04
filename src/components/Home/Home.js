@@ -33,7 +33,7 @@ const Home = () => {
                     {
                         reviews.slice(0, 3).map(review => <p key={review.id}>
                             <Card style={{ width: '18rem' }}>
-                                <Card.Img className='h-60 w-40' variant="top" src={review.image} />
+                                <Card.Img className='h-60 w-40 rounded-full' variant="top" src={review.image} />
                                 <Card.Body>
                                     <Card.Title><strong>Name:</strong> {review.name}</Card.Title>
                                     <Card.Text>
@@ -53,7 +53,7 @@ const Home = () => {
                         </p>)
                     }
                 </div>
-                <button onClick={() => navigate(`/review`)} className='mb-10 mt-3 pl-5 pr-5 pt-2 pb-2 rounded-lg text-xl text-white bg-blue-600 hover:bg-blue-400'>See More</button>
+                <button onClick={() => navigate(`/review`)} className='mb-10 mt-3 pl-10 pr-10 pt-2 pb-2 rounded-lg text-xl text-white bg-blue-600 hover:bg-blue-400'>See More</button>
             </div>
         </div>
     );

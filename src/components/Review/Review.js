@@ -10,12 +10,12 @@ const Review = () => {
 
     return (
         <div className='review-div'>
-            <h1>Best Reviews</h1>
+            <h1>Best Customer Reviews</h1>
             <div className="customer-review-div">
                 {
                     reviews.map(review => <p key={review.id} >
                         <Card style={{ width: '18rem' }}>
-                            <Card.Img className='h-60 w-40' variant="top" src={review.image} />
+                            <Card.Img className='h-60 w-40 rounded-full' variant="top" src={review.image} />
                             <Card.Body>
                                 <Card.Title><strong>Name:</strong> {review.name}</Card.Title>
                                 <Card.Text>
